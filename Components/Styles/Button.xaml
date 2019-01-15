@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ResourceDictionary 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="using:Components.Theme"
+    x:Class="Components.Styles.Button">
+    <Style TargetType="Button" Class="Button">
+        <Setter Property="BackgroundColor" Value="#777" />
+        <Setter Property="TextColor" Value="White" />
+        <Setter Property="local:ThemeEffects.CornerRadius" Value="30" />
+    </Style>
+    <Style TargetType="Button" Class="ButtonRed">
+        <Setter Property="BackgroundColor" Value="Red" />
+    </Style>
+</ResourceDictionary>
